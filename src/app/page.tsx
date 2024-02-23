@@ -9,8 +9,8 @@ export default function Home() {
   async function test() {
     // const {EmbedStatus} = await import("@coinweb/cweb-wallet-library");
     // console.log(EmbedStatus.Confirmed);
-    // const { add } = await import("../hello");
-    // console.log(add(1,3))
+    const { add } = await import("../hello");
+    console.log(add(1,3))
     const { greet } = await import("../pkg");
     greet()
  }
