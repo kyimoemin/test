@@ -1,0 +1,19 @@
+{
+  "name": "wasmpack",
+  "collaborators": [
+    "kyimoemin <kyimoemin0@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasmpack_bg.wasm",
+    "wasmpack.js",
+    "wasmpack_bg.js",
+    "wasmpack.d.ts"
+  ],
+  "module": "wasmpack.js",
+  "types": "wasmpack.d.ts",
+  "sideEffects": [
+    "./wasmpack.js",
+    "./snippets/*"
+  ]
+}
